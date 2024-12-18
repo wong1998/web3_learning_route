@@ -14,14 +14,59 @@
 
 ## Go语言学习
 
+项目初始化：
 
+`go mod init github.com/wong1998/web3_learning_route/Go_learning`
+
+设置临时代理：
+
+`$env:GOPROXY="https://goproxy.cn,direct"`
+
+安装依赖：
+
+`go get github.com/ethereum/go-ethereum`
+
+安装gopls(支持编辑器代码跳转)：
+
+`go install golang.org/x/tools/gopls@latest`
 
 ## hardhat+solidity
 
+安装hardhat:
 
+`npm install --save-dev hardhat`
+
+初始化 Hardhat
+
+`npx hardhat`
+
+启动本地开发网络
+
+`npx hardhat node`
 
 ## React+Next
 
 
 
 ## Solana+Rust
+
+
+
+## 其他
+
+Git使用方法
+
+```
+添加所有更改：
+
+git add .
+
+提交更改
+
+git commit -m "描述性提交消息"
+
+推送更改
+
+git push
+```
+

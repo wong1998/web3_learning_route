@@ -1,0 +1,54 @@
+# General
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Go
+vendor/
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.pdb
+*.out
+/bin/
+/pkg/
+/*.test
+ coverage.out
+ testdata/
+
+# Go modules
+# go.sum
+
+# Hardhat
+/hardhat-out/
+/cache/
+/artifacts/
+/coverage/
+/typechain/
+/.nyc_output/
+/node_modules/
+/dist/
+/build/
+/tmp/
+contracts-test/
+hardhat.config.ts.map
+hardhat.config.js.map
+
+# IDE Specific (IntelliJ/WebStorm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+**/.vscode/
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose.yml
