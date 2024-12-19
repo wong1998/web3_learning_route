@@ -36,13 +36,25 @@
 
 `npm install --save-dev hardhat`
 
-初始化 Hardhat
+初始化 Hardhat:
 
 `npx hardhat`
 
-启动本地开发网络
+启动本地开发网络:
 
 `npx hardhat node`
+
+编译合约:
+
+`npx hardhat compile`
+
+运行测试文件夹的脚本:
+
+`npx hardhat test`
+
+部署合约到本地网络:
+
+`npx hardhat run --network hardhat  scripts/deploy.js`
 
 ## React+Next
 
